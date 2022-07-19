@@ -5,7 +5,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
-dotenv.config({path: path.resolve(__dirname, './.env') });
+dotenv.config({path: path.resolve(__dirname, './config.env') });
 const PORT = process.env.PORT || 5000;
 
 //Database imports
