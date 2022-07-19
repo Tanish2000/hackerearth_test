@@ -1,0 +1,15 @@
+.image_card {
+  height : 250px;
+  border-radius : 10px;
+  overflow : hidden;
+}
+
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+input[type="file"]
+{
+  background-color: rgb(196, 185, 185) !important;
+}
